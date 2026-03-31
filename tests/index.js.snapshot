@@ -242,7 +242,7 @@ Inputs 'owner' and 'repositories' are not set. Creating token for this repositor
 --- REQUESTS ---
 GET /repos/actions/create-github-app-token/installation
 POST /app/installations/123456/access_tokens
-{"repositories":["create-github-app-token"],"permissions":{"issues":"write","pull_requests":"read","security_advisories":"write"}}
+{"repositories":["create-github-app-token"],"permissions":{"issues":"write","pull_requests":"read","repository_security_advisories":"write"}}
 `;
 
 exports[`post-proxy-requires-native-support.test.js > stderr 1`] = `

@@ -4,5 +4,5 @@ import { test } from "./main.js";
 await test(() => {
   process.env["INPUT_PERMISSION-ISSUES"] = `write`;
   process.env["INPUT_PERMISSION-PULL-REQUESTS"] = `read`;
-  process.env["INPUT_PERMISSION-SECURITY-ADVISORIES"] = `write`;
+  process.env["INPUT_PERMISSION-REPOSITORY-SECURITY-ADVISORIES"] = `write`;
 });

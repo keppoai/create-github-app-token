@@ -148,7 +148,7 @@
         "write"
       ]
     },
-    "security_advisories": {
+    "repository_security_advisories": {
       "type": "string",
       "description": "The level of permission to grant the access token to manage repository security advisories.",
       "enum": [
